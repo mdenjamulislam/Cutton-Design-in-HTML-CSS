@@ -1,0 +1,209 @@
+*{margin: 0;padding: 0;}
+#main_wrap{
+	width: 960px;
+	margin: 0 auto;
+    background: linear-gradient(#f9f9f9,#7272ea,#efef99,#68f168);
+	overflow: hidden;
+}
+
+
+
+/*
+#wrap{
+
+	display: block;
+	overflow: hidden;
+
+	animation-name: cutton;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+}
+@keyframes cutton{
+	0%{margin-left: 0;}
+	50%{margin-left: 150px;}
+	100%{}
+}
+*/
+
+
+
+/* this is head */
+.head{
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid red;
+	border-radius: 70%;
+	margin-top: 30px;
+	position: relative;
+}
+.head:after{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	background: #333;
+	left: 130px;
+	bottom: 50px;
+	border-radius: 0 8px 8px 0;
+}
+.head:before{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	background: #333;
+	top: 50px;
+	left: -10px;
+	border-radius: 8px 0 0 8px;
+}
+.iee{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.left_iee{
+	width: 30px;
+	height: 20px;
+	display: block;
+	border-radius: 8px;
+	border-bottom: 1px solid green;
+	float: left;
+	position: relative;
+}
+.right_iee{
+	width: 30px;
+	height: 20px;
+	background: ;
+	border-radius: 8px;
+	border-bottom: 1px solid green;
+	float: right;
+	position: relative;
+}
+/* this is iee section */
+.moni{
+	width: 13px;
+	height: 10px;
+	background: black;
+	border-radius: 50%;
+	margin-top: 8px;
+	margin-left: 5px;
+
+	-webkit-animation-name: iees;
+	animation-name: iees;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+@keyframes iees{
+	from{margin-left: 0px;background: red;}
+	to{margin-left: 15px;background: green;}
+}
+
+
+
+.nose_mouth{
+	width: 38%;
+	margin: 0 auto;
+}
+.nose{
+	width: 25px;
+    height: 35px;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	margin-left: 13px;
+}
+
+.mouth{
+	width: 45px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 45%;
+
+    animation-name: mouth;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+@keyframes mouth{
+	from{height: 15px;}
+	to{height: 5px;}
+}
+
+/* the head end */
+
+.full_body{
+	margin-top: 10px;
+	display: block;
+	margin-left: 270px;
+}
+.hand_left{
+	float: left;
+}
+.hand_long{
+	width: 35px;
+	height: 200px;
+	border: 2px solid red;
+	background: yellow;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+.hand_top{
+	width: 40px;
+	height: 35px;
+	border: 2px solid red;
+	background: yellow;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.body{
+	width: 210px;
+    height: 300px;
+	border: 2px solid red;
+	float: left;
+	display: block;
+
+}
+.hand_right{}
+
+
+.footer{
+	width: 170px;
+	margin: 0 auto;
+}
+.left_leg{
+	width: 40px;
+	height: 250px;
+	border: 2px solid red;
+	background: green;
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+.right_leg{
+	width: 40px;
+	height: 250px;
+	border: 2px solid red;
+	background: green;
+	display: block;
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+
+}
+
+
+
